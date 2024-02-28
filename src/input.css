@@ -34,9 +34,11 @@ nav {
     padding: 0 2rem;
 }
 
-h1 {
+.welcome {
     font-family: 'My Font', sans-serif;
-  }
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
 
 .button-group {
     display: flex;
@@ -77,4 +79,3 @@ h1 {
     background-color: #297fb900;
     border: #88C021;
 }
-

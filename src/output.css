@@ -839,8 +839,10 @@ nav {
   padding: 0 2rem;
 }
 
-h1 {
+.welcome {
   font-family: 'My Font', sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 5px;
 }
 
 .button-group {
@@ -896,4 +898,3 @@ h1 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
-
