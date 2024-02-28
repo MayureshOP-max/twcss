@@ -27,37 +27,44 @@ nav {
     align-items: center;
     justify-content: center;
     padding: 0 2rem;
-  }
-  
-  .button-group {
+}
+
+.button-group {
     display: flex;
     justify-content: flex-start;
-  }
-  
-  .btn {
-    padding: 10px 20px;
-    margin-right: 10px;
-    border-radius: 5px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 3rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  .btn-primary {
-    background-color: #4CAF50;
+}
+
+.btn-primary {
+    background-color: #88C021;
     color: white;
     border: none;
-  }
-  
-  .btn-primary:hover {
-    background-color: #3e8e41;
-  }
-  
-  .btn-secondary {
-    background-color: #3498db;
-    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #84ff00;
+}
+
+.btn-secondary {
+    background-color: #3498db00;
+    color: rgb(0, 0, 0);
     border: none;
-  }
-  
-  .btn-secondary:hover {
-    background-color: #2980b9;
-  }
+}
+
+.btn-secondary:hover {
+    background-color: #297fb900;
+    border: #88C021;
+}

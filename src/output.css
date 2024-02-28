@@ -599,6 +599,10 @@ video {
   margin-top: -0.75rem;
 }
 
+.-mt-8 {
+  margin-top: -2rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -609,6 +613,10 @@ video {
 
 .ml-11 {
   margin-left: 2.75rem;
+}
+
+.ml-14 {
+  margin-left: 3.5rem;
 }
 
 .ml-32 {
@@ -623,36 +631,16 @@ video {
   margin-left: 1.5rem;
 }
 
+.mr-14 {
+  margin-right: 3.5rem;
+}
+
 .mr-32 {
   margin-right: 8rem;
 }
 
 .mr-4 {
   margin-right: 1rem;
-}
-
-.ml-14 {
-  margin-left: 3.5rem;
-}
-
-.mr-14 {
-  margin-right: 3.5rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.-mt-5 {
-  margin-top: -1.25rem;
-}
-
-.-mt-6 {
-  margin-top: -1.5rem;
-}
-
-.-mt-8 {
-  margin-top: -2rem;
 }
 
 .block {
@@ -729,22 +717,12 @@ video {
   background-color: rgb(249 253 238 / var(--tw-bg-opacity));
 }
 
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-}
-
 .p-4 {
   padding: 1rem;
 }
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 .py-20 {
@@ -762,19 +740,14 @@ video {
   line-height: 2.5rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .font-bold {
@@ -783,6 +756,10 @@ video {
 
 .font-medium {
   font-weight: 500;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .italic {
@@ -862,31 +839,38 @@ nav {
 }
 
 .btn {
-  padding: 10px 20px;
-  margin-right: 10px;
-  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 3rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .btn-primary {
-  background-color: #4CAF50;
+  background-color: #88C021;
   color: white;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: #3e8e41;
+  background-color: #84ff00;
 }
 
 .btn-secondary {
-  background-color: #3498db;
-  color: white;
+  background-color: #3498db00;
+  color: rgb(0, 0, 0);
   border: none;
 }
 
 .btn-secondary:hover {
-  background-color: #2980b9;
+  background-color: #297fb900;
+  border: #88C021;
 }
 
 .hover\:font-semibold:hover {
