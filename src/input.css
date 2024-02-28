@@ -21,35 +21,43 @@ nav {
     transform: scale(0.6);
 }
 
-.button-group {
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+  }
+  
+  .button-group {
     display: flex;
     justify-content: flex-start;
-}
-
-.btn {
+  }
+  
+  .btn {
     padding: 10px 20px;
     margin-right: 10px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
-
-.btn-primary {
+  }
+  
+  .btn-primary {
     background-color: #4CAF50;
     color: white;
     border: none;
-}
-
-.btn-primary:hover {
+  }
+  
+  .btn-primary:hover {
     background-color: #3e8e41;
-}
-
-.btn-secondary {
+  }
+  
+  .btn-secondary {
     background-color: #3498db;
     color: white;
     border: none;
-}
-
-.btn-secondary:hover {
+  }
+  
+  .btn-secondary:hover {
     background-color: #2980b9;
-}
+  }
