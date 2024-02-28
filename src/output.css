@@ -806,6 +806,12 @@ video {
   transition-duration: 150ms;
 }
 
+@font-face {
+  font-family: 'My Font';
+
+  src: url('/fonts/against\ regular.ttf') format('truetype');
+}
+
 nav {
   margin-top: 0.4rem;
 }
@@ -831,6 +837,10 @@ nav {
   align-items: center;
   justify-content: center;
   padding: 0 2rem;
+}
+
+h1 {
+  font-family: 'My Font', sans-serif;
 }
 
 .button-group {
@@ -886,3 +896,4 @@ nav {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
+
