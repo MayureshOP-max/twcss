@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-nav{
-    margin-top: 1rem;
+nav {
+    margin-top: 0.4rem;
 }
+
 .nav-links {
     display: flex;
     justify-content: center;
@@ -18,4 +19,37 @@ nav{
 
 .nav-icons img {
     transform: scale(0.6);
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #3e8e41;
+}
+
+.btn-secondary {
+    background-color: #3498db;
+    color: white;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #2980b9;
 }
