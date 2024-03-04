@@ -67,6 +67,7 @@ nav {
 
 .btn-primary:hover {
     background-color: #84ff00;
+    color: #000;
 }
 
 .btn-secondary {
@@ -77,5 +78,6 @@ nav {
 
 .btn-secondary:hover {
     background-color: #297fb900;
-    border: #88C021;
+    border: #b5ff2b;
+    border-width: 20px;
 }
