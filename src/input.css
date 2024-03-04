@@ -81,3 +81,7 @@ nav {
     border: #b5ff2b;
     border-width: 20px;
 }
+
+.cards-bg {
+    background-color: #FFFFFF; /* Change this value to your desired color */
+}
